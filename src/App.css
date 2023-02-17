@@ -1,0 +1,95 @@
+.App-logo {
+  height: 70px;
+  border-radius: 50%;
+}
+.Car_wash{
+  height: 500px;
+  width: auto;
+}
+.login_form{
+  position:absolute;
+  top: 20%;
+  margin-left: 30%;
+  border: 2px solid rgb(39, 30, 30);
+  height: 370px;
+  width: 470px;
+  text-align: center;
+  }
+  .myform{
+  padding-top: 30px;
+  height: 350px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin-left:70%;
+  margin-top: 20px;
+  display: block;
+}
+.form-control{
+  margin-left: 2px;
+  width: 10px;
+}
+.mainCont{
+  width: auto;
+  display: grid;
+  background-color:darkgrey;
+  grid-template-rows: 60% 40%;
+  column-gap: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.secCont{
+  width: 98%;
+  height: auto;
+  border-radius: 50px;
+  background-color:darkgreen;
+}
+.bookSerContainer{  
+  margin-right: 20px;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
+  background-color:rgb(233, 177, 103);
+}
+.myframe{
+  display: grid;
+}
+.homeImg{
+width: auto;
+height: 260px;
+background-color:black;
+}
+.carousel{
+  margin-left:400px;
+  margin-top: 5px;
+  width: 100%;
+}
+.RegiContainer{
+  margin-top: 20px  ;
+  margin-left: 800px;
+  width: 500px;
+  height: 480px;
+  background-color: aqua;
+  border-radius: 20px;
+  padding-top: 15px;
+}
+.min-vh-100{
+  border: 1px solid black;
+}
+.loading{
+  filter: blur(10px);
+  clip-path: insert(0);
+}
+.loaded{
+  filter: blur(0px);
+  transition: filter 0.5s linear;
+}
+.MuiTabs-vertical {
+  width: 300px!important;
+ }
+ .LazyLoad{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+ }
